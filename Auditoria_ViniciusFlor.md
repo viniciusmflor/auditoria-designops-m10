@@ -48,14 +48,18 @@ O contorno adotado na prática: fechar o MR, criar outro com o mesmo nome, tenta
 
 ### Decisão auditada
 
-Na Sprint Review 4, o grupo recebeu feedback sobre a arquitetura do pipeline CI/CD. Os dois pontos levantados foram:
+Na Sprint Review 4, o orientador do projeto levantou pontos de melhoria sobre a arquitetura do pipeline CI/CD. O feedback foi registrado por Kauã Rodrigues no grupo do WhatsApp do time imediatamente após a reunião:
 
-1. *"Ter pipelines por módulo"* — separar a esteira por unidade de validação em vez de um pipeline monolítico.
-2. *"Ter outros pipelines menores e mais personalizáveis para conseguir e deixar o pipeline que a gente fez hoje como um dos pipes geralzão para testar tudo na hora de fazer a integração"* — o pipeline atual seria mantido como integração geral, com pipelines menores e especializados sendo criados em paralelo.
+1. *"ter pipelines por módulo"*
+2. *"Ter outros pipelines menores e mais personalizaveis para conseguir e deixar o pipeline que a gente fez hoje como um dos pipes geralzao para testar tudo na hora de fazer a integração"*
 
 ### Evidência
 
-O feedback foi dado verbalmente durante a Sprint Review 4 e anotado pelo próprio grupo. Não existe issue aberta no GitLab descrevendo a mudança antes ou depois, não existe comentário no MR relacionado, não existe ata formal registrada em nenhum artefato do repositório.
+**Screenshot do WhatsApp — Kauã Rodrigues, 10:27, dia da Sprint Review 4:**
+
+![Feedback Sprint Review 4](evidencias/sprint-review-4-feedback-whatsapp.png)
+
+A mensagem subsequente do mesmo integrante confirma o contexto: *"esses são os pontos que eles comentaram de melhoria pra gente discutir para sprint 5"*. Não existe issue aberta no GitLab descrevendo a mudança antes ou depois, não existe comentário no MR relacionado, não existe ata formal no repositório — o registro ficou restrito ao grupo de WhatsApp.
 
 ### Análise crítica
 
